@@ -10,12 +10,12 @@ public class Main {
         System.out.println("Enter width:");
         int TreeWidth = scan.nextInt();
 
-        int space_betwen = 0;
+        int space_between = 0;
         int space = TreeWidth;
 
         for (int i = 0; i < TreeWidth; i++) {
-            if (i > 1) space_betwen += 2;
-            if (i < 1) space_betwen += 1;
+            if (i > 1) space_between += 2;
+            if (i < 1) space_between += 1;
 
 
             if (i < TreeWidth - 1) {
@@ -32,7 +32,7 @@ public class Main {
 
 
             if (i > 0 & i < TreeWidth - 1) {
-                for (int k = 0; k < space_betwen; k++) {
+                for (int k = 0; k < space_between; k++) {
                     System.out.print(" ");
                 }
 
